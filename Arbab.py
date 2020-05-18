@@ -84,7 +84,7 @@ def start():
                         print '\n\n\033[32;1m[+] \033[37;1mPASSWORD FOUND'
                         print '\033[32;1m[+] \033[37;1mUsername \033[32;1m: \033[35;1m'+email
                         print '\033[32;1m[+] \033[37;1mPassword \033[32;1m:\033[35;1m '+pw
-                        print '\033[32;1m[+] \033[37;1mStatus   \033[32;1m:\033[32;1m HACKED BY ARBAB'
+                        print '\033[32;1m[+] \033[37;1mStatus   \033[32;1m:\033[32;1m HACKED BY ARBAB[Success]'
                         print '\033[32;1m[=] \033[37;1mProgram Finish'
                         sys.exit()
                     else:
@@ -96,7 +96,7 @@ def start():
                             print '\n\n\033[33;1m[+] \033[37;1mPASSWORD FOUND'
                             print '\033[33;1m[+] \033[37;1mUsername \033[32;1m: \033[35;1m'+email
                             print '\033[33;1m[+] \033[37;1mPassword \033[32;1m:\033[35;1m '+pw
-                            print '\033[33;1m[+] \033[37;1mStatus   \033[32;1m:\033[33;1m ON CHEKPOINT'
+                            print '\033[33;1m[+] \033[37;1mStatus   \033[32;1m:\033[33;1m Hacked By Arbab [CP]'
                             print '\033[33;1m[=] \033[37;1mProgram Finish'
                             sys.exit()
                 except requests.exceptions.ConnectionError:
